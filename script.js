@@ -23,6 +23,8 @@ class Character extends Computer {
     this.healsRemaining--;
   }
 }
+var TOTAL_WINS =5;
+var COMPUTER_STARTING_HEALTH=3;
 
 var startButton = document.getElementById("startButton");
 startButton.onclick = function(){
@@ -36,8 +38,6 @@ startButton.onclick = function(){
 function getRandom(max) {
   return Math.floor(Math.random() * max) + 1;
 }
-
-
 
 function startGame() {
   console.log(startGame)

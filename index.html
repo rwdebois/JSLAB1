@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    1,2,3,4,5
+  
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="index.css">
     <title></title>
   </head>
   <body>
+
     <div id="start-wrapper" class="start">
       <div>
         <button type="button" id="startButton" >START</button>
       </div>
     </div>
+
     <div id="game-wrapper" style="display: none;">
+        <div class="playOption"></div>
+            <button id="attackButton" class="attack">ATTACK</button>
+            <button id="healButton" class="heal">HEAL</button>
+            <button id="quitButton" class="quit">QUIT</button>
+        </div>
+        <p></p>
+        <div> Name:</div>
+        <div id="playerName">
+ 
+        </div>
       <div class="attack-buttons">
         <ul>
           <li>
@@ -24,7 +36,9 @@
           <li>
             <button type="button" name="quit">QUIT</button>
           </li>
+
         </ul>
+        
         <p id="health-message"></p>
       </div>
       <div class="bottom-box">
@@ -58,6 +72,6 @@
     </div>
   </body>
 </html>
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="script2.js"></script>
 <script type="text/javascript">
 
